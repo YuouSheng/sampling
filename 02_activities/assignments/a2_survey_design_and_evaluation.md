@@ -40,30 +40,57 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `1`
 
 Describe the purpose of your survey:
+
 ```
-write your answer here...
+The purpose of this survey is to understand why entry- and lower-level employees are leaving a large tech company at a high rate. The survey focuses on job satisfaction, workload, management support, compensation, and career growth opportunities so the company can identify specific changes that may improve retention.
+
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
+
 ```
-write your answer here...
+Target population: Current and recently departed (within the past 12 months) entry- and lower-level employees at the company.
+
+Sampling frame: The company’s HR employee records, including department/team, role level, employment status (current vs. left), and contact information (work/personal email as available).
+
+Sampling units: Individual employees listed in the HR records.
+
+Observational units: Individual survey respondents (each person provides one set of responses).
+
 ```
 
 Your 5-10 question survey:
+
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. What is your current employment status with the company?
+   - Currently employed
+   - Left within the past 12 months
+2. Which department/team were you primarily part of?
+    - Drop-down list of departments/teams + “Other”
+3. Overall, how satisfied were you with your role?
+    - Very satisfied / Somewhat satisfied / Neutral / Somewhat dissatisfied / Very dissatisfied
+4. How manageable was your workload most of the time?
+    - Very manageable / Somewhat manageable / Neutral / Somewhat unmanageable / Very unmanageable
+5. How supported did you feel by your direct manager?
+    - Very supported / Somewhat supported / Neutral / Somewhat unsupported / Very unsupported
+6. How satisfied were you with compensation and benefits for your role?
+    - Very satisfied / Somewhat satisfied / Neutral / Somewhat dissatisfied / Very dissatisfied
+7. Did you feel you had clear opportunities for career growth (e.g., promotions, skill development, internal mobility)?
+    - Yes / No / Not sure
+8. What factor most influenced your decision to stay or leave?
+   - Compensation
+   - Workload
+   - Management/leadership
+   - Career growth
+   - Work-life balance
+   - Team culture
+   - Other (please specify)
+9. If you could change one thing to improve employee satisfaction in entry- and lower-level roles, what would it be?
+   - Open-ended
+
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +98,44 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type:
+The survey uses a cross-sectional, stratified probability sample. A two-stage sampling design is employed, where groups of telephone numbers linked to households are sampled first, and one eligible individual (aged 15 or older) is randomly selected per household. Proxy responses are not permitted.
+
+2. Sample size:
+A field sample of approximately 50,000 units was drawn. About 40,000 invitation letters to the electronic questionnaire were sent, with an expected and achieved completion of approximately 24,000 respondents.
+
+3. Target population:
+All persons aged 15 years and older living in private households in the ten Canadian provinces. Full-time residents of institutions and residents of the territories are excluded.
+
+4. Sampling frame:
+The sampling frame combines landline and cellular telephone numbers from Census and administrative sources with Statistics Canada’s dwelling frame. Frame records consist of one or more telephone numbers associated with the same address, or a single telephone number when no address linkage could be established.
+
+5. Survey mode(s):
+Data were collected using computer-assisted telephone interviewing (CATI) and a self-administered electronic (internet) questionnaire. Respondents could complete the survey in English or French.
+
+6. Timeline:
+Data collection took place between September 4, 2018 and December 28, 2018.
+
+7. Response rate:
+The overall response rate for the 2018 GSS Giving, Volunteering and Participating survey was 41.9%.
+
+8. Weights:
+Person-level survey weights (WGHT_PER) are provided to allow estimates representative of the target population. Bootstrap weights are also included for design-based variance estimation. Weights were adjusted to account for unequal selection probabilities, non-response, sub-sampling of non-volunteers, and calibration to population totals by age and sex within provinces.
+
+9. Data processing:
+Data were processed using Statistics Canada’s generalized processing systems. Automated and manual edits were applied during and after data collection to ensure consistency, valid ranges, and correct questionnaire flow. CATI systems flagged out-of-range or inconsistent responses during interviews, with unresolved cases reviewed at head office.
+
+10. Cleaning and imputation:
+Missing data were handled primarily using donor (nearest-neighbour) imputation based on similarity scores across key characteristics. Where donor imputation was not possible, mean imputation was applied. In 2018, personal and family income were obtained through linkage to tax records (T1FF) for respondents who did not object; remaining missing income values were imputed.
+
+11. Sources of error:
+Sampling error due to the use of a probability sample; coverage error from excluding households without telephones; non-response error at both household and individual levels; response error due to recall or reporting issues; and processing error.
+
+12. Limitations and known biases:
+The survey excludes institutional residents and territorial populations. Households without telephone access are not covered by the sampling frame. The introduction of an internet response option and substantial questionnaire changes in 2018 limit comparability with previous GSS cycles.
+
+13. Documentation and sources: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234
+
 ```
 
 ## Rubric
